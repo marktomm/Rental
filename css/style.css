@@ -27,7 +27,7 @@
 }
 @font-face {
   font-family: 'Raleway-Bold';
-  src: url('../fonts/Raleway-Bold/Raleway-Bold.eot') format('embedded-opentype'), 
+  src: url('../fonts/Raleway-Bold/Raleway-Bold.eot') format('embedded-opentype'),
   url('../fonts/Raleway-Bold/Raleway-Bold.woff') format('woff'),
   url('../fonts/Raleway-Bold/Raleway-Bold.ttf')  format('truetype'),
   url('../fonts/Raleway-Bold/Raleway-Bold.svg') format('svg');
@@ -46,7 +46,7 @@
 @font-face {
   font-family: 'Raleway-Black';
   src: url('../fonts/Raleway-Black/Raleway-Black.eot') format('embedded-opentype'),
-  url('../fonts/Raleway-Black/Raleway-Black.woff') format('woff'), 
+  url('../fonts/Raleway-Black/Raleway-Black.woff') format('woff'),
   url('../fonts/Raleway-Black/Raleway-Black.ttf')  format('truetype'),
   url('../fonts/Raleway-Black/Raleway-Black.svg') format('svg');
   font-weight: normal;
@@ -93,16 +93,16 @@
 }
 html, body{
 	 font-family: 'Raleway-Regular';
-	margin: 0; 
-	padding: 0; 
-	min-height: 100%; 
+	margin: 0;
+	padding: 0;
+	min-height: 100%;
 	height:auto;
 }
 body section{
 	padding-top: 30px !important;
 }
 .container-avto{
-	max-width: 1600px;
+	/*max-width: 1600px;*/
 	min-width: 303px;
     margin: 0 auto;
 }
@@ -202,7 +202,7 @@ section .discount p{
  .mod-avto .wrap-car-desc h6{
 	  font-family: 'Raleway-Black';
 	  font-size:30px;
- }  
+ }
 .wrap-car .block-car-img span.driver-avto{
 	 bottom:45px;
  }
@@ -481,7 +481,7 @@ figure a .img-logo{
     font-size: 20px;
     font-family: 'Ubuntu-Bold';
     text-transform: uppercase;
-	
+
 }
 figure a span{
 	text-transform: none;
@@ -492,7 +492,7 @@ figure a span{
 }
 ul.nav > li > a:first-child{
 		padding-left:0;
-		
+
 }
 ul.nav > li > a:last-child{
 padding-right:0;
@@ -734,7 +734,7 @@ form .btn .icon-car{
     height: 100px;
 }
 .wrap-group-form .form-group{
-	position: relative;	
+	position: relative;
 }
 .wrap-group-form .form-control{
 	padding: 6px 12px 6px 70px;
@@ -807,7 +807,7 @@ section.slide{
 	padding-bottom: 132px;
 }
 section.slide:before{
-	
+
 }
 
 
@@ -820,7 +820,7 @@ section.slide h1 span{
 }
 section.slide .slide-text{
 	margin: 50px 123px 0;
-	
+
 }
 section.slide .slide-text .slide-icon-t{
 	margin: 0 15px;
@@ -1082,7 +1082,7 @@ section.car{
 	background: #C0C0C0;
 }
 .car-c2 .color-car li:nth-child(4) span{
-	background: #911E42; 
+	background: #911E42;
 }
 .car-c3 .wrap-car .block-car-img img{
 	position: absolute;
@@ -1235,7 +1235,7 @@ section.questions-car{
     margin: 0 auto;
 }
 .box-h h3{
-   
+
     margin: 0 auto;
     background: #fff;
     padding: 15px 50px;
@@ -1294,7 +1294,7 @@ section .btn span{
 	background: url(../img/button-form2.png) no-repeat;
 	right: 47px;
     top: 7px;
-    position: absolute;	
+    position: absolute;
 }
 section.slide .wrap-romb,
 section.questions-car .wrap-romb {
@@ -1327,7 +1327,7 @@ section.advantage {
     background-size: 90%;
 }
 section.advantage .col-xs-12:nth-child(4),
-section.advantage .col-xs-12:last-child, 
+section.advantage .col-xs-12:last-child,
 .additionally .col-xs-12:nth-child(4),
 .additionally .col-xs-12:last-child{
 	margin-bottom:40px;
@@ -1448,7 +1448,7 @@ font-family: 'Ubuntu';
 .arenda .blocks-ad  .left-hr {
     margin-bottom: 1.5px;
 }
-.arenda .col-xs-12 .col-xs-4:hover .left-hr, 
+.arenda .col-xs-12 .col-xs-4:hover .left-hr,
 .arenda .col-xs-12 .col-xs-4:hover .right-hr{
    background:#d2958b;
 }
@@ -1901,7 +1901,7 @@ section.wedding form h3 {
 }
 .get-cars .col-xs-3{
 	color:#fff;
-	
+
 	border-right:1px solid #444444;
 	padding:35px 20px 10px 35px;
 	background:#222222;
@@ -2014,7 +2014,7 @@ section.conact-a  .oform {
     border-bottom: 0px solid #404040;
     background: url(../img/bg-contact.png) center no-repeat;
 	background-size: cover;
-	
+
     margin-bottom: 30px;
     float: left;
     width: 100%;
@@ -2030,7 +2030,7 @@ section.conact-a .oform h3 {
     width: 100%;
     border-left: 5px solid #dc2d13;
 	padding-left: 35px !important;
-	border-right: 0px solid #dc2d13; 
+	border-right: 0px solid #dc2d13;
 	font-family: 'Raleway-Black';
 	font-size: 36px;
 	padding:0;
@@ -2162,7 +2162,7 @@ footer figure a .img-logo {
 }
 footer figure a span {
      float: none;
-    display: block;	 
+    display: block;
 }
 footer p{
 	color:#e5e5e5;
@@ -2207,7 +2207,7 @@ input:checked + label + button.btn {
 }
 input:checked + label + button.btn + button.btn {
   display: none;
-}	
+}
 .btn-default.disabled:hover, .btn-default[disabled]:hover {
 	background: #dc2d13;
 	border-bottom: 5px solid #404040;
