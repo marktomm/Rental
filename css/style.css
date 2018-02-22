@@ -5,80 +5,71 @@
   url('../fonts/Ubuntu-Bold/Ubuntu-Bold.ttf')  format('truetype'),
   url('../fonts/Ubuntu-Bold/Ubuntu-Bold.svg') format('svg');
   font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Ubuntu-Light';
-  src: url('../fonts/Ubuntu-Light/Ubuntu-Light.eot') format('embedded-opentype'),
-  url('../fonts/Ubuntu-Light/Ubuntu-Light.woff') format('woff'),
-  url('../fonts/Ubuntu-Light/Ubuntu-Light.ttf')  format('truetype'),
-  url('../fonts/Ubuntu-Light/Ubuntu-Light.svg') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Ubuntu';
-  src: url('../fonts/Ubuntu/Ubuntu.eot') format('embedded-opentype'),
-  url('../fonts/Ubuntu/Ubuntu.woff') format('woff'),
-  url('../fonts/Ubuntu/Ubuntu.ttf')  format('truetype'),
-  url('../fonts/Ubuntu/Ubuntu.svg') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Raleway-Bold';
-  src: url('../fonts/Raleway-Bold/Raleway-Bold.eot') format('embedded-opentype'),
-  url('../fonts/Raleway-Bold/Raleway-Bold.woff') format('woff'),
-  url('../fonts/Raleway-Bold/Raleway-Bold.ttf')  format('truetype'),
-  url('../fonts/Raleway-Bold/Raleway-Bold.svg') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Raleway-Regular';
-  src: url('../fonts/Raleway-Regular/Raleway-Regular.eot') format('embedded-opentype'),
-  url('../fonts/Raleway-Regular/Raleway-Regular.woff') format('woff'),
-  url('../fonts/Raleway-Regular/Raleway-Regular.ttf')  format('truetype'),
-  url('../fonts/Raleway-Regular/Raleway-Regular.svg') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Raleway-Black';
-  src: url('../fonts/Raleway-Black/Raleway-Black.eot') format('embedded-opentype'),
-  url('../fonts/Raleway-Black/Raleway-Black.woff') format('woff'),
-  url('../fonts/Raleway-Black/Raleway-Black.ttf')  format('truetype'),
-  url('../fonts/Raleway-Black/Raleway-Black.svg') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Raleway-ExtraBold';
-  src: url('../fonts/Raleway-ExtraBold/Raleway-ExtraBold.eot') format('embedded-opentype'),
-  url('../fonts/Raleway-ExtraBold/Raleway-ExtraBold.woff') format('woff'),
-  url('../fonts/Raleway-ExtraBold/Raleway-ExtraBold.ttf')  format('truetype'),
-  url('../fonts/Raleway-ExtraBold/Raleway-ExtraBold.svg') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Raleway-Light';
-  src: url('../fonts/Raleway-Light/Raleway-Light.eot') format('embedded-opentype'),
-  url('../fonts/Raleway-Light/Raleway-Light.woff') format('woff'),
-  url('../fonts/Raleway-Light/Raleway-Light.ttf')  format('truetype'),
-  url('../fonts/Raleway-Light/Raleway-Light.svg') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Raleway-SemiBold';
-  src: url('../fonts/Raleway-SemiBold/Raleway-SemiBold.eot') format('embedded-opentype'),
-  url('../fonts/Raleway-SemiBold/Raleway-SemiBold.woff') format('woff'),
-  url('../fonts/Raleway-SemiBold/Raleway-SemiBold.ttf')  format('truetype'),
-  url('../fonts/Raleway-SemiBold/Raleway-SemiBold.svg') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
+  font-style: normal;}
+  @font-face {
+    font-family: 'Ubuntu-Light';
+    src: url('../fonts/Ubuntu-Light/Ubuntu-Light.eot') format('embedded-opentype'),
+    url('../fonts/Ubuntu-Light/Ubuntu-Light.woff') format('woff'),
+    url('../fonts/Ubuntu-Light/Ubuntu-Light.ttf')  format('truetype'),
+    url('../fonts/Ubuntu-Light/Ubuntu-Light.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;}
+  @font-face {
+    font-family: 'Ubuntu';
+    src: url('../fonts/Ubuntu/Ubuntu.eot') format('embedded-opentype'),
+    url('../fonts/Ubuntu/Ubuntu.woff') format('woff'),
+    url('../fonts/Ubuntu/Ubuntu.ttf')  format('truetype'),
+    url('../fonts/Ubuntu/Ubuntu.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;}
+  @font-face {
+    font-family: 'Raleway-Bold';
+    src: url('../fonts/Raleway-Bold/Raleway-Bold.eot') format('embedded-opentype'),
+    url('../fonts/Raleway-Bold/Raleway-Bold.woff') format('woff'),
+    url('../fonts/Raleway-Bold/Raleway-Bold.ttf')  format('truetype'),
+    url('../fonts/Raleway-Bold/Raleway-Bold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;}
+  @font-face {
+    font-family: 'Raleway-Regular';
+    src: url('../fonts/Raleway-Regular/Raleway-Regular.eot') format('embedded-opentype'),
+    url('../fonts/Raleway-Regular/Raleway-Regular.woff') format('woff'),
+    url('../fonts/Raleway-Regular/Raleway-Regular.ttf')  format('truetype'),
+    url('../fonts/Raleway-Regular/Raleway-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;}
+  @font-face {
+    font-family: 'Raleway-Black';
+    src: url('../fonts/Raleway-Black/Raleway-Black.eot') format('embedded-opentype'),
+    url('../fonts/Raleway-Black/Raleway-Black.woff') format('woff'),
+    url('../fonts/Raleway-Black/Raleway-Black.ttf')  format('truetype'),
+    url('../fonts/Raleway-Black/Raleway-Black.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;}
+  @font-face {
+    font-family: 'Raleway-ExtraBold';
+    src: url('../fonts/Raleway-ExtraBold/Raleway-ExtraBold.eot') format('embedded-opentype'),
+    url('../fonts/Raleway-ExtraBold/Raleway-ExtraBold.woff') format('woff'),
+    url('../fonts/Raleway-ExtraBold/Raleway-ExtraBold.ttf')  format('truetype'),
+    url('../fonts/Raleway-ExtraBold/Raleway-ExtraBold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;}
+  @font-face {
+    font-family: 'Raleway-Light';
+    src: url('../fonts/Raleway-Light/Raleway-Light.eot') format('embedded-opentype'),
+    url('../fonts/Raleway-Light/Raleway-Light.woff') format('woff'),
+    url('../fonts/Raleway-Light/Raleway-Light.ttf')  format('truetype'),
+    url('../fonts/Raleway-Light/Raleway-Light.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;}
+  @font-face {
+    font-family: 'Raleway-SemiBold';
+    src: url('../fonts/Raleway-SemiBold/Raleway-SemiBold.eot') format('embedded-opentype'),
+    url('../fonts/Raleway-SemiBold/Raleway-SemiBold.woff') format('woff'),
+    url('../fonts/Raleway-SemiBold/Raleway-SemiBold.ttf')  format('truetype'),
+    url('../fonts/Raleway-SemiBold/Raleway-SemiBold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;}
 
 .ubuntu{
   font-family: 'Ubuntu';
@@ -88,40 +79,34 @@
     font-size: 18px;
     font-family: 'Ubuntu-Bold';
 }
-.form-group:last-child{
-	margin-bottom:0;
-}
+.form-group:last-child{margin-bottom:0;}
+.display-n{display:none;}
+
+
+
+/* ============================================= */
 html, body{
-	 font-family: 'Raleway-Regular';
-	margin: 0;
-	padding: 0;
-	min-height: 100%;
-	height:auto;
+	margin: 0; padding: 0;
+  min-height: 100%;	height:auto;
+  font-family: 'Raleway-Regular';
 }
-body section{
-	padding-top: 30px !important;
+* html {min-height: 100%;	height: auto;}
+
+body section{	padding-top: 60px !important;}
+
+ul li{list-style-type:none;}
+ul{padding:0;}
+img{width:100%;}
+
+
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
 }
-.container-avto{
-	/*max-width: 1600px;*/
-	min-width: 303px;
-    margin: 0 auto;
-}
-* html {
-	min-height: 100%;
-	height: auto;
-}
-ul li{
-	list-style-type:none;
-}
-ul{
-	padding:0;
-}
-img{
-	width:100%;
-}
-.display-n{
-	display:none;
-}
+
+.container-avto{margin: 0 auto; min-width: 303px;}
+
+
 .file a{
 	position: relative;
 	text-align:center;
@@ -338,39 +323,19 @@ h1,h2,h3,h4,h5,h6{
     width: 100%;
     margin: 0 auto;
 }
-.mod{
-	display:none;
-}
-.sync1  .mod .owl-carousel .owl-wrapper-outer{
-	height:292px;
-}
-.sync2.owl-theme .owl-controls .owl-buttons .owl-next {
-    right: 0;
-}
-.sync2.owl-theme .owl-controls .owl-buttons .owl-prev {
-    left: 0;
-}
+.mod{	display:none;}
+
+
+
+.sync1 .mod .owl-carousel .owl-wrapper-outer {height:292px;}
+.sync2.owl-theme .owl-controls .owl-buttons .owl-next {right: 0;}
+.sync2.owl-theme .owl-controls .owl-buttons .owl-prev {left: 0;}
 .sync2.owl-theme .owl-controls .owl-buttons div {
-    color: #000;
-	bottom: 0;
-	 top: 0;
-	 position: absolute;
-	margin: auto;
-    display: inline-block;
-    font: normal normal normal 31px/1 FontAwesome;
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    zoom: 1;
-    margin: 5px;
-    padding: 3px 10px;
-    font-size: 12px;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
-    border-radius: 30px;
-    background: none;
-    filter: Alpha(Opacity=50);
-    opacity: 0.5;
+  display: inline-block;margin: auto;margin: 5px;padding: 3px 10px;
+  position: absolute;top: 0;bottom: 0;
+  color: #000; font: normal normal normal 31px/1 FontAwesome; text-rendering: auto;
+  -webkit-font-smoothing: antialiased; font-size: 12px;
+  border-radius: 30px; background: none; opacity: 0.5; zoom: 1;
 }
 .sync2 .owl-next:before{
 	content: "\f138";
@@ -384,11 +349,8 @@ h1,h2,h3,h4,h5,h6{
 	line-height: 50px;
 	font-size:30px
 }
-.sync2{
-	padding: 0 50px;
-}.sync2 .mod .owl-carousel .owl-wrapper-outer{
-	 height:55px;
-}
+.sync2{	padding: 0 50px;}
+.sync2 .mod .owl-carousel .owl-wrapper-outer{	 height:55px;}
 .sync1 .item{
 	position: relative;
 	height:292px;
@@ -398,12 +360,8 @@ h1,h2,h3,h4,h5,h6{
     border-radius: 3px;
     text-align: center;
 }
- .item img{
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    right: 0;
+.item img{
+    position: absolute; left: 0;  top: 0;  bottom: 0; right: 0;
     margin: auto;
  }
 .sync2 .item{
@@ -417,17 +375,13 @@ h1,h2,h3,h4,h5,h6{
     text-align: center;
     cursor: pointer;
 }
-.sync2 .item h1{
-  font-size: 18px;
-}
-.sync2 .synced .item{
-  background: #0c83e7;
-}
+.sync2 .item h1{ font-size: 18px;}
+.sync2 .synced .item{ background: #0c83e7;}
 
 .color-nav{
 	position: fixed;
     height: 55px;
-    background: #596064 url(../img/top-shadow.png) no-repeat;
+    background: #596064 url(../img/top-shadow.png) 50% 50% repeat-x;
     z-index: 99;
     width: 100%;
 	transition-delay: 2s;
@@ -446,9 +400,8 @@ h1,h2,h3,h4,h5,h6{
     height: 170px;
 	z-index:2;
 	}
-.col-xs-12{
-	padding:0;
-}
+.col-xs-12{	padding:0;}
+
 header.col-xs-12{
 	padding-top: 8px;
 }
@@ -457,31 +410,18 @@ nav.col-xs-8{
 	padding:0;
 	background-color: transparent;
 }
-figure.col-xs-2{
-	width:15%;
-}
+figure.col-xs-2{width:15%;}
 figure a{
 	color: #fff;
     display: block;
     font-size: 20px;
 }
-figure a:hover{
-	color:#fff;
-	   text-decoration: none;
-}
+figure a:hover{color:#fff;text-decoration: none;}
 figure a .img-logo{
     background: url(../img/LOGO-shape.png) no-repeat;
-    height: 17px;
-    width: 108px;
+    display: block;margin-bottom: 16px;width: 108px;height: 17px;
     float: left;
-    line-height: 47px;
-    display: block;
-    text-align: center;
-    margin-bottom: 16px;
-    font-size: 20px;
-    font-family: 'Ubuntu-Bold';
-    text-transform: uppercase;
-
+    font-size: 20px;line-height: 47px;font-family: 'Ubuntu-Bold';text-align: center; text-transform: uppercase;
 }
 figure a span{
 	text-transform: none;
@@ -507,10 +447,7 @@ nav.col-xs-8 ul.nav {
     -ms-box-pack: justify;
     box-pack: justify;
 }
-.clearfix:before, .clearfix:after {
-    content: "";
-    display: table;
-}
+
 nav.col-xs-8 ul.nav a {
 	color:#fff;
 	font-size: 14px;
@@ -804,7 +741,7 @@ form .btn .icon-car{
 
 section.slide{
 	padding-top:55px;
-	padding-bottom: 132px;
+	padding-bottom: 140px;
 }
 section.slide:before{
 
@@ -812,11 +749,13 @@ section.slide:before{
 
 
 section.slide h1{
+  margin-bottom: 40px;
 	font-size: 46px;
 	text-transform: none;
 }
 section.slide h1 span{
-	font-family: 'Raleway-ExtraBold';
+  font-family: 'Raleway-ExtraBold';
+  font-size: 36px;
 }
 section.slide .slide-text{
 	margin: 50px 123px 0;
@@ -884,6 +823,9 @@ section.slide .slide-text .slide-icon-t{
 	float:right;
 }
 
+
+
+/* ===== TRIGER ===== */
 .triger{
 	z-index: 0;
     position: relative;
@@ -906,65 +848,62 @@ section.slide .slide-text .slide-icon-t{
 	z-index:0;
 	position: relative;
 	float: left;
-    width: 278px;
-    background: #0e0e0e;
-	height:114px;
+  width: 278px;
+  /* background: #0e0e0e; */
+	height: 114px;
 	padding: 25px 27px;
-	font-size:18px;
+	font-size: 18px; text-align: center;
 }
 .triger .container-wrap div:before{
 	content: "";
-    float: left;
-    margin-right: 15px;
-    height: 45px;
+  float: left;
+  margin-right: 15px;
+  height: 45px;
 }
 .triger .container-wrap div:nth-child(1){
-background: url(../img/box1.png);
-background-size:cover;
-margin-left:0;
-left: 11px;
+  background: url(../img/box1.png);
+  background-size:cover;
 }
 .triger .container-wrap div:nth-child(2){
-background: url(../img/box2.png);
-background-size:cover;
+  background: url(../img/box2.png);
+  background-size:cover;
 }
 .triger .container-wrap div:nth-child(3){
-background: url(../img/box3.png);
-background-size:cover;
+  background: url(../img/box3.png);
+  background-size:cover;
 }
 .triger .container-wrap div:nth-child(4){
-background: url(../img/box4.png);
-background-size:cover;
-margin-right:0;
+  background: url(../img/box4.png);
+  background-size:cover;
 }
 .triger .container-wrap div:nth-child(2),
 .triger .container-wrap div:nth-child(3){
-	    margin-top: 40px;
+	margin-top: 40px;
 }
-.triger .before1:before{
-	content:"";
+/* .triger .before1:before{
+  width: 44px;
+  content:"";
 	background: url(../img/icon-speed.png);
 	background-size:cover;
-	width: 44px;
 }
 .triger .before2:before{
-	    width: 58px;
+	width: 58px;
 	content:"";
 	background: url(../img/icon-vehicle.png);
 	background-size:cover;
 }
 .triger .before3:before{
-	    width: 38px;
+	width: 38px;
 	content:"";
 	background: url(../img/icon-doc.png);
 	background-size:cover;
 }
 .triger .before4:before{
-	    width: 45px;
+	width: 45px;
 	content:"";
 	background: url(../img/icon-steering.png);
 	background-size:cover;
-}
+} */
 
 /*section2*/
 section.car{
@@ -1861,7 +1800,7 @@ section.wedding form h3 {
     z-index: 2;
     background: #f5f5f5 url(../img/bg-get-cars-mob.jpg) center no-repeat;
     background-size: cover;
-    padding: 30px 0 44px 0;
+    padding: 30px 0 120px 0;
 }
 .get-cars .d28 {
     position: absolute;
@@ -2046,7 +1985,7 @@ section.conact-a .oform .wrap-group-form {
     width: 40px;
 }
 .d28 {
-    height: 77px;
+    height: 120px;
     width: 100%;
     position: relative;
     margin: 0;
@@ -2101,14 +2040,15 @@ section.conact-a .oform .wrap-group-form {
 	top: 3px;
 	color:#dc2d13;
 }
-.map2{
-	display:none;
+#contacts,
+#gmap{
+	width: 100%; height: 600px; box-sizing: border-box;
 }
 
 /*section seo-a*/
 .seo-a{
 	padding-top: 0 !important;
-	margin-top: -30px;
+	margin-top: 120px;
 	margin-bottom:65px;
 }
 .seo-a .h4-class {
@@ -2212,3 +2152,5 @@ input:checked + label + button.btn + button.btn {
 	background: #dc2d13;
 	border-bottom: 5px solid #404040;
 }
+
+input[name="persDannye4"], input[name="persDannye4"] + label {display: none !important;}

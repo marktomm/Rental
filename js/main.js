@@ -1,66 +1,53 @@
 jQuery(document).ready(function(){
-	 	
 
 
-	
-	
-	jQuery('.click-avto').slick({
-	  infinite: true,
-	  dots: true,
-	  arrows: false,
-	  slidesToShow: 3,
-	  slidesToScroll: 3,
-	   responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2,
-        infinite: true,
-        dots: true
-      }
-    },
-    {
-      breakpoint: 768,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 1
-      }
-    },
-	{
-      breakpoint: 640,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
+jQuery('.click-avto').slick({
+  infinite: true,
+  dots: true,
+  arrows: false,
+  slidesToShow: 3,
+  slidesToScroll: 3,
+  responsive: [
+  {
+    breakpoint: 1024,
+    settings: {
+      slidesToShow: 2,
+      slidesToScroll: 2,
+      infinite: true,
+      dots: true
     }
-   
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
-  ]
-	});
-	
-	
+  },
+  {
+    breakpoint: 768,
+    settings: {
+      slidesToShow: 2,
+      slidesToScroll: 1
+    }
+  },
+  {
+    breakpoint: 640,
+    settings: {
+      slidesToShow: 1,
+      slidesToScroll: 1
+    }
+  }
 
-	
-	jQuery('.fancybox').fancybox({
-		maxWidth: 790,
-		width: 790,
-		padding: 0
-	
-	});
-	jQuery('.avto-pop-up, .avto-pop-up2, .pop-up, .pop-up2, .pop-up3, .pop-kia').fancybox({
-		padding: 0
-	
-	});
-	
-	
-	jQuery('nav.col-xs-8 ul.nav a').click(function(){
-		jQuery('.navbar-collapse').removeClass('in');
-	});
-	
-	
+  // You can unslick at a given breakpoint now by adding:
+  // settings: "unslick"
+  // instead of a settings object
+  ]
+});
+jQuery('.fancybox').fancybox({
+  maxWidth: 790,
+  width: 790,
+  padding: 0
+});
+jQuery('.avto-pop-up, .avto-pop-up2, .pop-up, .pop-up2, .pop-up3, .pop-kia').fancybox({
+  padding: 0
+});
+jQuery('nav.col-xs-8 ul.nav a').click(function(){
+  jQuery('.navbar-collapse').removeClass('in');
+});
 
 jQuery('.navbar-collapse, article').onePageNav({
     currentClass: 'current',
@@ -81,41 +68,39 @@ jQuery('.navbar-collapse, article').onePageNav({
 });
 
 
-  
 
-
-	var sync1 = $(".sync1");
-  var sync2 = $(".sync2");
- 
-  sync1.owlCarousel({
+var sync1 = $(".sync1");
+var sync2 = $(".sync2");
+sync1.owlCarousel({
   responsive: true,
-    responsiveRefreshRate : 200,
-    responsiveBaseWidth: window,
-    singleItem : true,
-    slideSpeed : 1000,
-    navigation: false,
-    pagination:false,
-    afterAction : syncPosition
- 
-  });
- 
-  sync2.owlCarousel({
-	responsive: true,
-    responsiveBaseWidth: window,
-    items : 3,
-	navigationText:	["",""],
-    itemsDesktop      : [1199,4],
-    itemsDesktopSmall     : [979,4],
-    itemsTablet       : [768,3],
-    itemsMobile       : [479,2],
-    pagination:false,
-	navigation: true,
-    responsiveRefreshRate : 100,
-    afterInit : function(el){
-      el.find(".owl-item").eq(0).addClass("synced");
-    }
-  });
- 
+  responsiveRefreshRate : 200,
+  responsiveBaseWidth: window,
+  singleItem : true,
+  slideSpeed : 1000,
+  navigation: false,
+  pagination:false,
+  afterAction : syncPosition
+
+});
+sync2.owlCarousel({
+  responsive: true,
+  responsiveBaseWidth: window,
+  items : 3,
+  navigationText:	["",""],
+  itemsDesktop      : [1199,4],
+  itemsDesktopSmall     : [979,4],
+  itemsTablet       : [768,3],
+  itemsMobile       : [479,2],
+  pagination:false,
+  navigation: true,
+  responsiveRefreshRate : 100,
+  afterInit : function(el){
+    el.find(".owl-item").eq(0).addClass("synced");
+  }
+});
+
+
+
   function syncPosition(el){
     var current = this.currentItem;
     $(".sync2").find(".owl-item").removeClass("synced").eq(current).addClass("synced")
@@ -123,13 +108,13 @@ jQuery('.navbar-collapse, article').onePageNav({
       center(current)
     }
   }
- 
+
   $(".sync2").on("click", ".owl-item", function(e){
     e.preventDefault();
     var number = $(this).data("owlItem");
     sync1.trigger("owl.goTo",number);
   });
- 
+
   function center(number){
     var sync2visible = sync2.data("owlCarousel").owl.visibleItems;
     var num = number;
@@ -139,7 +124,7 @@ jQuery('.navbar-collapse, article').onePageNav({
         var found = true;
       }
     }
- 
+
     if(found===false){
       if(num>sync2visible[sync2visible.length-1]){
         sync2.trigger("owl.goTo", num - sync2visible.length+2)
@@ -154,14 +139,12 @@ jQuery('.navbar-collapse, article').onePageNav({
     } else if(num === sync2visible[0]){
       sync2.trigger("owl.goTo", num-1)
     }
-    
+
   }
 
 
-
-
 /*
-	$(window).load(function() {
+$(window).load(function() {
   // The slider being synced must be initialized first
   $('#carousel').flexslider({
     animation: "slide",
@@ -169,15 +152,15 @@ jQuery('.navbar-collapse, article').onePageNav({
     animationLoop: false,
     slideshow: false,
     itemWidth: 75,
-	maxItems: 4,
+	  maxItems: 4,
     itemMargin: 10,
     asNavFor: '#slider'
   });
- 
+
   $('#slider').flexslider({
     animation: "slide",
 	directionNav: false,
-	keyboardNav: false, 
+	keyboardNav: false,
     controlNav: false,
     animationLoop: false,
     slideshow: false,
@@ -217,9 +200,54 @@ $(function (){
         isRTL: false
     };
     $.datepicker.setDefaults($.datepicker.regional['ru']);
-
     $( ".datepicker" ).datepicker({
         inline: true
     });
 });
+
+/*----------------------------------------------------*/
+/*	GOOGLE map
+/*----------------------------------------------------*/
+var options, image, map, marker;
+function initialize() {
+  options = {
+    center: new google.maps.LatLng(59.436687,24.750925),
+    zoom: 17,
+    scrollwheel: false,
+    disableDefaultUI: true
+  };
+  map = new google.maps.Map(document.getElementById('gmap'), options);
+  // image = {
+  //   url: '/images/gpoint.png',
+  //   size: new google.maps.Size(70, 91),
+  //   origin: new google.maps.Point(0, 0),
+  //   anchor: new google.maps.Point(35, 91)
+  // };
+  marker = new google.maps.Marker({
+      position: options.center,
+      map: map
+      //icon: image,
+  });
+
+    // latlng is the apparent centre-point
+    // offsetx is the distance you want that point to move to the right, in pixels
+    // offsety is the distance you want that point to move upwards, in pixels
+    // offset can be negative
+    // offsetx and offsety are both optional
+
+  setTimeout(() => {
+    var scale = Math.pow(2, map.getZoom());
+    var worldCoordinateCenter = map.getProjection().fromLatLngToPoint(new google.maps.LatLng(59.436687,24.750925));
+    var pixelOffset = new google.maps.Point((-200/scale) || 0,(1/scale) ||0);
+    var worldCoordinateNewCenter = new google.maps.Point(
+        worldCoordinateCenter.x - pixelOffset.x,
+        worldCoordinateCenter.y + pixelOffset.y
+    );
+    var newCenter = map.getProjection().fromPointToLatLng(worldCoordinateNewCenter);
+    map.setCenter(newCenter);
+  }, 1000);
+
+};
+google.maps.event.addDomListener(window, 'load', initialize);
+google.maps.event.addDomListener(window, 'resize', initialize);
 
