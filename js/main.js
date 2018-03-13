@@ -45,6 +45,10 @@ jQuery('.fancybox').fancybox({
 jQuery('.avto-pop-up, .avto-pop-up2, .pop-up, .pop-up2, .pop-up3, .pop-kia').fancybox({
   padding: 0
 });
+$('button[href="#rent-car"]').click(function(){
+  $('#rent_auto-name').text($(this).data('car'))
+})
+
 jQuery('nav.col-xs-8 ul.nav a').click(function(){
   jQuery('.navbar-collapse').removeClass('in');
 });
