@@ -27,8 +27,15 @@ $mail_body = '';
 foreach ($form_vars as $value) {
     $mail_body .= $value . ': ' . G_sanitize($_POST[$value]) . "\n";
 }
+
+$subject = G_sanitize($_POST['formtype']);
+if(array_key_exists('car', $_POST)) {
+    $subject .= G_sanitize($_POST['car']);
+}
+
+// file_put_contents($file, "subject: " . $subject . "\n" , FILE_APPEND);
 // file_put_contents($file, "mail_body: " . $mail_body . "\n" , FILE_APPEND);
 
-if(!mail($mail_recv, G_sanitize($_POST['formtype']), $mail_body)) {
+if(!mail($mail_recv, G_sanitize($subject), $mail_body)) {
     file_put_contents($file, "mail send failed. mail_body: " . $mail_body . "\n" , FILE_APPEND);
 }
