@@ -46,7 +46,8 @@ jQuery('.avto-pop-up, .avto-pop-up2, .pop-up, .pop-up2, .pop-up3, .pop-kia').fan
   padding: 0
 });
 $('button[href="#rent-car"]').click(function(){
-  $('#rent_auto-name').text($(this).data('car'))
+  $('#rent_auto-name').text($(this).data('car'));
+  $('input[name=car]').attr('value', $(this).data('car'));
 })
 
 jQuery('nav.col-xs-8 ul.nav a').click(function(){
