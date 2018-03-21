@@ -1,6 +1,6 @@
 <?php
 
-define('G_MAILTO_DEFAULT', 'avaldus@kiirautolaen.ee');
+define('G_MAILTO_DEFAULT', 'info@rental24.ee');
 define('G_POST_FORM_IDENTIFIER', 'formid');
 
 $G_mailto_forms = array(
