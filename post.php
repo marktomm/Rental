@@ -35,7 +35,11 @@ if(array_key_exists('car', $_POST)) {
 
 // file_put_contents($file, "subject: " . $subject . "\n" , FILE_APPEND);
 // file_put_contents($file, "mail_body: " . $mail_body . "\n" , FILE_APPEND);
-
-if(!mail($mail_recv, G_sanitize($subject), $mail_body)) {
+$from = 'no-reply@rental24.ee';
+$headers = 'From: ' . $from; 
+if(!mail($mail_recv, G_sanitize($subject), $mail_body, $headers, '-f ' . $from)) {
     file_put_contents($file, "mail send failed. mail_body: " . $mail_body . "\n" , FILE_APPEND);
 }
+
+header("Location: {$_SERVER['HTTP_REFERER']}");
+exit;

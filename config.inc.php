@@ -1,10 +1,10 @@
 <?php
 
-define('G_MAILTO_DEFAULT', 'marktomm90@gmail.com');
+define('G_MAILTO_DEFAULT', 'avaldus@kiirautolaen.ee');
 define('G_POST_FORM_IDENTIFIER', 'formid');
 
 $G_mailto_forms = array(
-    'form1' => 'trmailmark@gmail.com'
+    'form1' => 'avaldus@kiirautolaen.ee'
 );
 
 $G_forms_content = array(
@@ -39,7 +39,7 @@ $G_forms_content = array(
         /*'formtype',*/ 'name', 'phone'
     ),
     'form11' => array(
-        /*'formtype',*/ 'name', 'phone', 'start-date', 'start-time', 'end-date', 'end-time'/*, 'file'*/
+        /*'formtype',*/ 'name', 'phone', 'start-date', 'start-time', 'end-date', 'end-time', 'car'/*, 'file'*/
     ),
 );
 
